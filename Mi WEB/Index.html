@@ -1,0 +1,143 @@
+<html>
+<head>
+<link rel="icon" href="imagenes/icon.png"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Trazeeh</title>
+<style>
+body{
+	margin:0;
+}
+
+@font-face{
+	font-family:"Feast of Flesh BB", "TF2 Build";
+	
+	
+}
+#contenedor{
+	width:0 auto;
+	height:0 auto;
+}
+
+#encabezado{
+	width:100%;
+	height: 221px;
+}
+
+.menu{
+	width:100%;
+	height:60px;
+	/*background-color:#000;*/
+	background: -moz-linear-gradient(top, rgba(125,126,125,1) 0%, 								    rgba(14,14,14,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, 	 color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1)));
+	
+}
+
+.menu li{
+	display:inline;
+}
+
+.menu li a{
+	text-decoration:none;
+	font-family:"TF2 Build";
+	float:left;
+	width:10%;
+	text-align:center;
+	font-size:25px;
+	margin-left:85px;
+	margin-top:-1px;
+	color:#FFF;
+	padding:17px;	
+}
+
+.menu li a:hover{
+	/*background-color:#F30;*/
+	text-shadow: 1px 1px 10px rgba(0, 255, 255, 1);
+	font-weight:bolder;
+	
+}
+
+.clear{
+	clear:both;
+}
+
+.menu ul{
+	margin:0;
+	padding:0;
+}
+
+.MarcoContenido{
+	width:90%;
+	float:left;
+	border-radius:20px;
+	background-color:#CCC;
+	margin-left:70px;
+	margin-top:25px;
+	padding-top:30px;
+	-webkit-box-shadow: 0px 1px 30px 0px rgba(67, 60, 67, 1);
+	-moz-box-shadow:    0px 1px 30px 0px rgba(67, 60, 67, 1);
+	box-shadow:         0px 1px 30px 0px rgba(67, 60, 67, 1);
+}
+
+.contenido{
+	float:left;
+	width:95%;
+	margin-left:2%;
+	background-color:#999;
+	position:relative;
+}
+
+.youtube{
+	float:right;
+	position:relative;
+	width: 18%;
+	height: 32%;
+	display:inline-block;
+	top:2%;
+}
+
+.twitter{
+	float:right;
+	position:relative;
+	padding:1%;
+	display:inline-block;
+	top:5%;
+	
+}
+
+</style>
+</head>
+<body>
+<div id="contenedor">
+	<div id="encabezado">
+     	<img src="imagenes/encabezado.jpg" width="100%" height="100%"/>
+    </div>
+
+     <div class="menu">
+		<ul>
+ 			<li><a href="#">Inicio</a></li>
+ 			<li><a href="#">Vídeos</a></li>
+  			<li><a href="#">Noticias</a></li>
+  			<li><a href="#">BMX</a></li>
+ 			<li><a href="#">Contacto</a></li>
+            <div class="clear"></div>
+		</ul>
+     </div>
+     
+     <div class="MarcoContenido">
+     	<div class="contenido">
+        	
+            <div class="youtube">
+            	<iframe id="fr" src="http://www.youtube.com/subscribe_widget?p=yoTrazeeh" style="overflow: hidden; height: 150px; width: 195px; border			                 : 0;" scrolling="no" frameBorder="0"></iframe>
+            </div>
+            
+        	<div class="twitter">
+                    <a class="twitter-timeline"  href="https://twitter.com/KikeTrz" data-widget-id="535061313421344768">Tweets por el @KikeTrz.</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          
+          
+            </div>
+        </div>
+     </div>
+</div>
+</body>
+</html>
